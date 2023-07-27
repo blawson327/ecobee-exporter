@@ -6,7 +6,7 @@ FROM golang:1.16 as build
 
 ARG LD_FLAGS
 
-WORKDIR /go/src/github.com/billykwooten/ecobee-exporter
+WORKDIR /go/src/github.com/blawson327/ecobee-exporter
 COPY . .
 
 RUN go version
